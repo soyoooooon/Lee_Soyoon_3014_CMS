@@ -19,8 +19,7 @@ function addProduct($product)
         // 3. Move the uploaded file around (move the file from tmp path to the /images)
         $image_path = '../images/';
 
-        // //Optional 10 ~ 20 mins
-        // // Randomlize/hash the file name before move it over!
+        
         $generated_name     = md5($upload_file['filename'] . time());
         $generated_filename = $generated_name . '.' . $upload_file['extension'];
         $targetpath         = $image_path . $generated_filename;
@@ -102,3 +101,7 @@ function deleteProduct($id){
         return false;
     }
 }
+
+
+
+

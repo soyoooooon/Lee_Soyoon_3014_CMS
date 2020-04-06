@@ -16,6 +16,7 @@
     <a href="admin_createuser.php">Create User</a>
     <a href="admin_addproduct.php">Add Product</a>
     <a href="admin_deleteproduct.php">Delete Product</a>
+    <!-- <a href="admin_editproduct.php">EDIT</a> -->
     <a href="admin_logout.php">Sign Out</a>
     <a href="../index.php">HOME</a>
    

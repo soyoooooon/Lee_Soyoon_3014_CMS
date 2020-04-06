@@ -7,7 +7,7 @@
         $delete_pro_result = deleteProduct($user_id);
 
         if(!$delete_pro_result){
-            $message = 'Failed to delete it';
+            $message = 'Failed to delete';
         }
     }
 
